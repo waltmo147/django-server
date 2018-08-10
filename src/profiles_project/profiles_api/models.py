@@ -60,3 +60,20 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
         """Django uses this to convert the object to string"""
 
         return self.email
+
+
+class ProfileFeedItem(models.Model):
+    """Profile status update."""
+
+    # a link from this model to other model, CASCADE means if a user delete the profile, delete all the status along with it
+    user_profile = models.ForeignKey('UserProfile', on_delete=models.CASCADE)
+
+    status_text = models.CharField(max_length=255)
+
+    # store the date that the profile is created
+    created_on = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        """Return the model as a string."""
+
+        return self.status_text
