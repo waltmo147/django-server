@@ -25,7 +25,7 @@ SECRET_KEY = 'w+lc2vm2c4r9dic=u85w1w%)h1omkf181r9u*f_t&76zf9ox1k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['soft-seahorse-87.localtunnel.me', '127.0.0.1', 'waltmo.localtunnel.me']
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'profiles_api',
+    'image_tagging_api',
 ]
 
 MIDDLEWARE = [

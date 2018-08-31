@@ -20,5 +20,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^api/', include('profiles_api.urls'))
+    url(r'^api/profiles/', include('profiles_api.urls')),
+    url(r'^api/image-tagging/', include('image_tagging_api.urls'))
 ]
