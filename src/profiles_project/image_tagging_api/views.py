@@ -55,6 +55,7 @@ class UploadImageViewSet(viewsets.ViewSet):
         if count > 1:
             ls = os.listdir(IMAGE_DIR + tag_id)
             image_arr = []
+            print(count)
             has_more = True
             for i in range(num, num + count):
                 if i >= len(ls):
@@ -76,6 +77,7 @@ class UploadImageViewSet(viewsets.ViewSet):
 
         #serializer = serializers.HelloSerializer(data=request.data)
         fh = open("/vagrant/imageToSave.JPEG", "wb")
+        print('1')
         encoded = base64.b64decode(request.data['image'])
         fh.write(encoded)
         cmd = 'PYTHONPATH=/vagrant/android-model403/ python -m scripts.label_image  --image=/vagrant/imageToSave.jpeg'

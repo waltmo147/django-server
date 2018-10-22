@@ -1,0 +1,714 @@
+hunting dog
+├── Rhodesian ridgeback
+├── courser
+├── dachshund, dachsie, badger dog
+│   └── sausage dog, sausage hound
+├── hound, hound dog
+│   ├── Afghan hound, Afghan
+│   ├── Ibizan hound, Ibizan Podenco
+│   ├── Norwegian elkhound, elkhound
+│   ├── Plott hound
+│   ├── Saluki, gazelle hound
+│   ├── Scottish deerhound, deerhound
+│   ├── Weimaraner
+│   ├── basset, basset hound
+│   ├── beagle
+│   ├── bloodhound, sleuthhound
+│   ├── bluetick
+│   ├── boarhound
+│   ├── coonhound
+│   │   ├── black-and-tan coonhound
+│   │   └── coondog
+│   ├── foxhound
+│   │   ├── American foxhound
+│   │   ├── English foxhound
+│   │   └── Walker hound, Walker foxhound
+│   ├── greyhound
+│   │   ├── Italian greyhound
+│   │   └── whippet
+│   ├── harrier
+│   ├── otterhound, otter hound
+│   ├── redbone
+│   ├── staghound
+│   └── wolfhound
+│       ├── Irish wolfhound
+│       └── borzoi, Russian wolfhound
+├── sporting dog, gun dog
+│   ├── bird dog
+│   ├── griffon, wire-haired pointing griffon
+│   ├── pointer, Spanish pointer
+│   │   ├── German short-haired pointer
+│   │   └── vizsla, Hungarian pointer
+│   ├── retriever
+│   │   ├── Chesapeake Bay retriever
+│   │   ├── Labrador retriever
+│   │   ├── curly-coated retriever
+│   │   ├── flat-coated retriever
+│   │   └── golden retriever
+│   ├── setter
+│   │   ├── English setter
+│   │   ├── Gordon setter
+│   │   └── Irish setter, red setter
+│   ├── spaniel
+│   │   ├── Brittany spaniel
+│   │   ├── Sussex spaniel
+│   │   ├── clumber, clumber spaniel
+│   │   ├── cocker spaniel, English cocker spaniel, cocker
+│   │   ├── field spaniel
+│   │   ├── springer spaniel, springer
+│   │   │   ├── English springer, English springer spaniel
+│   │   │   └── Welsh springer spaniel
+│   │   └── water spaniel
+│   │       ├── American water spaniel
+│   │       └── Irish water spaniel
+│   └── water dog
+└── terrier
+    ├── Airedale, Airedale terrier
+    ├── Australian terrier
+    ├── Bedlington terrier
+    ├── Border terrier
+    ├── Boston bull, Boston terrier
+    ├── Dandie Dinmont, Dandie Dinmont terrier
+    ├── Irish terrier
+    ├── Kerry blue terrier
+    ├── Lhasa, Lhasa apso
+    ├── Norfolk terrier
+    ├── Norwich terrier
+    ├── Scotch terrier, Scottish terrier, Scottie
+    ├── Skye terrier
+    │   └── Clydesdale terrier
+    ├── Tibetan terrier, chrysanthemum dog
+    ├── West Highland white terrier
+    ├── Yorkshire terrier
+    ├── bullterrier, bull terrier
+    │   ├── American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier
+    │   └── Staffordshire bullterrier, Staffordshire bull terrier
+    ├── cairn, cairn terrier
+    ├── fox terrier
+    │   ├── smooth-haired fox terrier
+    │   └── wire-haired fox terrier
+    ├── rat terrier, ratter
+    │   └── Manchester terrier, black-and-tan terrier
+    │       └── toy Manchester, toy Manchester terrier
+    ├── schnauzer
+    │   ├── giant schnauzer
+    │   ├── miniature schnauzer
+    │   └── standard schnauzer
+    ├── silky terrier, Sydney silky
+    ├── soft-coated wheaten terrier
+    └── wirehair, wirehaired terrier, wire-haired terrier
+        ├── Lakeland terrier
+        └── Welsh terrier
+            └── Sealyham terrier, Sealyham
+hunting dog
+├── Rhodesian ridgeback
+├── courser
+├── dachshund, dachsie, badger dog
+│   └── sausage dog, sausage hound
+├── hound, hound dog
+│   ├── Afghan hound, Afghan
+│   ├── Ibizan hound, Ibizan Podenco
+│   ├── Norwegian elkhound, elkhound
+│   ├── Plott hound
+│   ├── Saluki, gazelle hound
+│   ├── Scottish deerhound, deerhound
+│   ├── Weimaraner
+│   ├── basset, basset hound
+│   ├── beagle
+│   ├── bloodhound, sleuthhound
+│   ├── bluetick
+│   ├── boarhound
+│   ├── coonhound
+│   │   ├── black-and-tan coonhound
+│   │   └── coondog
+│   ├── foxhound
+│   │   ├── American foxhound
+│   │   ├── English foxhound
+│   │   └── Walker hound, Walker foxhound
+│   ├── greyhound
+│   │   ├── Italian greyhound
+│   │   └── whippet
+│   ├── harrier
+│   ├── otterhound, otter hound
+│   ├── redbone
+│   ├── staghound
+│   └── wolfhound
+│       ├── Irish wolfhound
+│       └── borzoi, Russian wolfhound
+├── sporting dog, gun dog
+│   ├── bird dog
+│   ├── griffon, wire-haired pointing griffon
+│   ├── pointer, Spanish pointer
+│   │   ├── German short-haired pointer
+│   │   └── vizsla, Hungarian pointer
+│   ├── retriever
+│   │   ├── Chesapeake Bay retriever
+│   │   ├── Labrador retriever
+│   │   ├── curly-coated retriever
+│   │   ├── flat-coated retriever
+│   │   └── golden retriever
+│   ├── setter
+│   │   ├── English setter
+│   │   ├── Gordon setter
+│   │   └── Irish setter, red setter
+│   ├── spaniel
+│   │   ├── Brittany spaniel
+│   │   ├── Sussex spaniel
+│   │   ├── clumber, clumber spaniel
+│   │   ├── cocker spaniel, English cocker spaniel, cocker
+│   │   ├── field spaniel
+│   │   ├── springer spaniel, springer
+│   │   │   ├── English springer, English springer spaniel
+│   │   │   └── Welsh springer spaniel
+│   │   └── water spaniel
+│   │       ├── American water spaniel
+│   │       └── Irish water spaniel
+│   └── water dog
+└── terrier
+    ├── Airedale, Airedale terrier
+    ├── Australian terrier
+    ├── Bedlington terrier
+    ├── Border terrier
+    ├── Boston bull, Boston terrier
+    ├── Dandie Dinmont, Dandie Dinmont terrier
+    ├── Irish terrier
+    ├── Kerry blue terrier
+    ├── Lhasa, Lhasa apso
+    ├── Norfolk terrier
+    ├── Norwich terrier
+    ├── Scotch terrier, Scottish terrier, Scottie
+    ├── Skye terrier
+    │   └── Clydesdale terrier
+    ├── Tibetan terrier, chrysanthemum dog
+    ├── West Highland white terrier
+    ├── Yorkshire terrier
+    ├── bullterrier, bull terrier
+    │   ├── American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier
+    │   └── Staffordshire bullterrier, Staffordshire bull terrier
+    ├── cairn, cairn terrier
+    ├── fox terrier
+    │   ├── smooth-haired fox terrier
+    │   └── wire-haired fox terrier
+    ├── rat terrier, ratter
+    │   └── Manchester terrier, black-and-tan terrier
+    │       └── toy Manchester, toy Manchester terrier
+    ├── schnauzer
+    │   ├── giant schnauzer
+    │   ├── miniature schnauzer
+    │   └── standard schnauzer
+    ├── silky terrier, Sydney silky
+    ├── soft-coated wheaten terrier
+    └── wirehair, wirehaired terrier, wire-haired terrier
+        ├── Lakeland terrier
+        └── Welsh terrier
+            └── Sealyham terrier, Sealyham
+hunting dog
+├── Rhodesian ridgeback
+├── courser
+├── dachshund, dachsie, badger dog
+│   └── sausage dog, sausage hound
+├── hound, hound dog
+│   ├── Afghan hound, Afghan
+│   ├── Ibizan hound, Ibizan Podenco
+│   ├── Norwegian elkhound, elkhound
+│   ├── Plott hound
+│   ├── Saluki, gazelle hound
+│   ├── Scottish deerhound, deerhound
+│   ├── Weimaraner
+│   ├── basset, basset hound
+│   ├── beagle
+│   ├── bloodhound, sleuthhound
+│   ├── bluetick
+│   ├── boarhound
+│   ├── coonhound
+│   │   ├── black-and-tan coonhound
+│   │   └── coondog
+│   ├── foxhound
+│   │   ├── American foxhound
+│   │   ├── English foxhound
+│   │   └── Walker hound, Walker foxhound
+│   ├── greyhound
+│   │   ├── Italian greyhound
+│   │   └── whippet
+│   ├── harrier
+│   ├── otterhound, otter hound
+│   ├── redbone
+│   ├── staghound
+│   └── wolfhound
+│       ├── Irish wolfhound
+│       └── borzoi, Russian wolfhound
+├── sporting dog, gun dog
+│   ├── bird dog
+│   ├── griffon, wire-haired pointing griffon
+│   ├── pointer, Spanish pointer
+│   │   ├── German short-haired pointer
+│   │   └── vizsla, Hungarian pointer
+│   ├── retriever
+│   │   ├── Chesapeake Bay retriever
+│   │   ├── Labrador retriever
+│   │   ├── curly-coated retriever
+│   │   ├── flat-coated retriever
+│   │   └── golden retriever
+│   ├── setter
+│   │   ├── English setter
+│   │   ├── Gordon setter
+│   │   └── Irish setter, red setter
+│   ├── spaniel
+│   │   ├── Brittany spaniel
+│   │   ├── Sussex spaniel
+│   │   ├── clumber, clumber spaniel
+│   │   ├── cocker spaniel, English cocker spaniel, cocker
+│   │   ├── field spaniel
+│   │   ├── springer spaniel, springer
+│   │   │   ├── English springer, English springer spaniel
+│   │   │   └── Welsh springer spaniel
+│   │   └── water spaniel
+│   │       ├── American water spaniel
+│   │       └── Irish water spaniel
+│   └── water dog
+└── terrier
+    ├── Airedale, Airedale terrier
+    ├── Australian terrier
+    ├── Bedlington terrier
+    ├── Border terrier
+    ├── Boston bull, Boston terrier
+    ├── Dandie Dinmont, Dandie Dinmont terrier
+    ├── Irish terrier
+    ├── Kerry blue terrier
+    ├── Lhasa, Lhasa apso
+    ├── Norfolk terrier
+    ├── Norwich terrier
+    ├── Scotch terrier, Scottish terrier, Scottie
+    ├── Skye terrier
+    │   └── Clydesdale terrier
+    ├── Tibetan terrier, chrysanthemum dog
+    ├── West Highland white terrier
+    ├── Yorkshire terrier
+    ├── bullterrier, bull terrier
+    │   ├── American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier
+    │   └── Staffordshire bullterrier, Staffordshire bull terrier
+    ├── cairn, cairn terrier
+    ├── fox terrier
+    │   ├── smooth-haired fox terrier
+    │   └── wire-haired fox terrier
+    ├── rat terrier, ratter
+    │   └── Manchester terrier, black-and-tan terrier
+    │       └── toy Manchester, toy Manchester terrier
+    ├── schnauzer
+    │   ├── giant schnauzer
+    │   ├── miniature schnauzer
+    │   └── standard schnauzer
+    ├── silky terrier, Sydney silky
+    ├── soft-coated wheaten terrier
+    └── wirehair, wirehaired terrier, wire-haired terrier
+        ├── Lakeland terrier
+        └── Welsh terrier
+            └── Sealyham terrier, Sealyham
+hunting dog
+├── Rhodesian ridgeback
+├── courser
+├── dachshund, dachsie, badger dog
+│   └── sausage dog, sausage hound
+├── hound, hound dog
+│   ├── Afghan hound, Afghan
+│   ├── Ibizan hound, Ibizan Podenco
+│   ├── Norwegian elkhound, elkhound
+│   ├── Plott hound
+│   ├── Saluki, gazelle hound
+│   ├── Scottish deerhound, deerhound
+│   ├── Weimaraner
+│   ├── basset, basset hound
+│   ├── beagle
+│   ├── bloodhound, sleuthhound
+│   ├── bluetick
+│   ├── boarhound
+│   ├── coonhound
+│   │   ├── black-and-tan coonhound
+│   │   └── coondog
+│   ├── foxhound
+│   │   ├── American foxhound
+│   │   ├── English foxhound
+│   │   └── Walker hound, Walker foxhound
+│   ├── greyhound
+│   │   ├── Italian greyhound
+│   │   └── whippet
+│   ├── harrier
+│   ├── otterhound, otter hound
+│   ├── redbone
+│   ├── staghound
+│   └── wolfhound
+│       ├── Irish wolfhound
+│       └── borzoi, Russian wolfhound
+├── sporting dog, gun dog
+│   ├── bird dog
+│   ├── griffon, wire-haired pointing griffon
+│   ├── pointer, Spanish pointer
+│   │   ├── German short-haired pointer
+│   │   └── vizsla, Hungarian pointer
+│   ├── retriever
+│   │   ├── Chesapeake Bay retriever
+│   │   ├── Labrador retriever
+│   │   ├── curly-coated retriever
+│   │   ├── flat-coated retriever
+│   │   └── golden retriever
+│   ├── setter
+│   │   ├── English setter
+│   │   ├── Gordon setter
+│   │   └── Irish setter, red setter
+│   ├── spaniel
+│   │   ├── Brittany spaniel
+│   │   ├── Sussex spaniel
+│   │   ├── clumber, clumber spaniel
+│   │   ├── cocker spaniel, English cocker spaniel, cocker
+│   │   ├── field spaniel
+│   │   ├── springer spaniel, springer
+│   │   │   ├── English springer, English springer spaniel
+│   │   │   └── Welsh springer spaniel
+│   │   └── water spaniel
+│   │       ├── American water spaniel
+│   │       └── Irish water spaniel
+│   └── water dog
+└── terrier
+    ├── Airedale, Airedale terrier
+    ├── Australian terrier
+    ├── Bedlington terrier
+    ├── Border terrier
+    ├── Boston bull, Boston terrier
+    ├── Dandie Dinmont, Dandie Dinmont terrier
+    ├── Irish terrier
+    ├── Kerry blue terrier
+    ├── Lhasa, Lhasa apso
+    ├── Norfolk terrier
+    ├── Norwich terrier
+    ├── Scotch terrier, Scottish terrier, Scottie
+    ├── Skye terrier
+    │   └── Clydesdale terrier
+    ├── Tibetan terrier, chrysanthemum dog
+    ├── West Highland white terrier
+    ├── Yorkshire terrier
+    ├── bullterrier, bull terrier
+    │   ├── American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier
+    │   └── Staffordshire bullterrier, Staffordshire bull terrier
+    ├── cairn, cairn terrier
+    ├── fox terrier
+    │   ├── smooth-haired fox terrier
+    │   └── wire-haired fox terrier
+    ├── rat terrier, ratter
+    │   └── Manchester terrier, black-and-tan terrier
+    │       └── toy Manchester, toy Manchester terrier
+    ├── schnauzer
+    │   ├── giant schnauzer
+    │   ├── miniature schnauzer
+    │   └── standard schnauzer
+    ├── silky terrier, Sydney silky
+    ├── soft-coated wheaten terrier
+    └── wirehair, wirehaired terrier, wire-haired terrier
+        ├── Lakeland terrier
+        └── Welsh terrier
+            └── Sealyham terrier, Sealyham
+hunting dog
+├── Rhodesian ridgeback
+├── courser
+├── dachshund, dachsie, badger dog
+│   └── sausage dog, sausage hound
+├── hound, hound dog
+│   ├── Afghan hound, Afghan
+│   ├── Ibizan hound, Ibizan Podenco
+│   ├── Norwegian elkhound, elkhound
+│   ├── Plott hound
+│   ├── Saluki, gazelle hound
+│   ├── Scottish deerhound, deerhound
+│   ├── Weimaraner
+│   ├── basset, basset hound
+│   ├── beagle
+│   ├── bloodhound, sleuthhound
+│   ├── bluetick
+│   ├── boarhound
+│   ├── coonhound
+│   │   ├── black-and-tan coonhound
+│   │   └── coondog
+│   ├── foxhound
+│   │   ├── American foxhound
+│   │   ├── English foxhound
+│   │   └── Walker hound, Walker foxhound
+│   ├── greyhound
+│   │   ├── Italian greyhound
+│   │   └── whippet
+│   ├── harrier
+│   ├── otterhound, otter hound
+│   ├── redbone
+│   ├── staghound
+│   └── wolfhound
+│       ├── Irish wolfhound
+│       └── borzoi, Russian wolfhound
+├── sporting dog, gun dog
+│   ├── bird dog
+│   ├── griffon, wire-haired pointing griffon
+│   ├── pointer, Spanish pointer
+│   │   ├── German short-haired pointer
+│   │   └── vizsla, Hungarian pointer
+│   ├── retriever
+│   │   ├── Chesapeake Bay retriever
+│   │   ├── Labrador retriever
+│   │   ├── curly-coated retriever
+│   │   ├── flat-coated retriever
+│   │   └── golden retriever
+│   ├── setter
+│   │   ├── English setter
+│   │   ├── Gordon setter
+│   │   └── Irish setter, red setter
+│   ├── spaniel
+│   │   ├── Brittany spaniel
+│   │   ├── Sussex spaniel
+│   │   ├── clumber, clumber spaniel
+│   │   ├── cocker spaniel, English cocker spaniel, cocker
+│   │   ├── field spaniel
+│   │   ├── springer spaniel, springer
+│   │   │   ├── English springer, English springer spaniel
+│   │   │   └── Welsh springer spaniel
+│   │   └── water spaniel
+│   │       ├── American water spaniel
+│   │       └── Irish water spaniel
+│   └── water dog
+└── terrier
+    ├── Airedale, Airedale terrier
+    ├── Australian terrier
+    ├── Bedlington terrier
+    ├── Border terrier
+    ├── Boston bull, Boston terrier
+    ├── Dandie Dinmont, Dandie Dinmont terrier
+    ├── Irish terrier
+    ├── Kerry blue terrier
+    ├── Lhasa, Lhasa apso
+    ├── Norfolk terrier
+    ├── Norwich terrier
+    ├── Scotch terrier, Scottish terrier, Scottie
+    ├── Skye terrier
+    │   └── Clydesdale terrier
+    ├── Tibetan terrier, chrysanthemum dog
+    ├── West Highland white terrier
+    ├── Yorkshire terrier
+    ├── bullterrier, bull terrier
+    │   ├── American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier
+    │   └── Staffordshire bullterrier, Staffordshire bull terrier
+    ├── cairn, cairn terrier
+    ├── fox terrier
+    │   ├── smooth-haired fox terrier
+    │   └── wire-haired fox terrier
+    ├── rat terrier, ratter
+    │   └── Manchester terrier, black-and-tan terrier
+    │       └── toy Manchester, toy Manchester terrier
+    ├── schnauzer
+    │   ├── giant schnauzer
+    │   ├── miniature schnauzer
+    │   └── standard schnauzer
+    ├── silky terrier, Sydney silky
+    ├── soft-coated wheaten terrier
+    └── wirehair, wirehaired terrier, wire-haired terrier
+        ├── Lakeland terrier
+        └── Welsh terrier
+            └── Sealyham terrier, Sealyham
+hunting dog
+├── Rhodesian ridgeback
+├── courser
+├── dachshund, dachsie, badger dog
+│   └── sausage dog, sausage hound
+├── hound, hound dog
+│   ├── Afghan hound, Afghan
+│   ├── Ibizan hound, Ibizan Podenco
+│   ├── Norwegian elkhound, elkhound
+│   ├── Plott hound
+│   ├── Saluki, gazelle hound
+│   ├── Scottish deerhound, deerhound
+│   ├── Weimaraner
+│   ├── basset, basset hound
+│   ├── beagle
+│   ├── bloodhound, sleuthhound
+│   ├── bluetick
+│   ├── boarhound
+│   ├── coonhound
+│   │   ├── black-and-tan coonhound
+│   │   └── coondog
+│   ├── foxhound
+│   │   ├── American foxhound
+│   │   ├── English foxhound
+│   │   └── Walker hound, Walker foxhound
+│   ├── greyhound
+│   │   ├── Italian greyhound
+│   │   └── whippet
+│   ├── harrier
+│   ├── otterhound, otter hound
+│   ├── redbone
+│   ├── staghound
+│   └── wolfhound
+│       ├── Irish wolfhound
+│       └── borzoi, Russian wolfhound
+├── sporting dog, gun dog
+│   ├── bird dog
+│   ├── griffon, wire-haired pointing griffon
+│   ├── pointer, Spanish pointer
+│   │   ├── German short-haired pointer
+│   │   └── vizsla, Hungarian pointer
+│   ├── retriever
+│   │   ├── Chesapeake Bay retriever
+│   │   ├── Labrador retriever
+│   │   ├── curly-coated retriever
+│   │   ├── flat-coated retriever
+│   │   └── golden retriever
+│   ├── setter
+│   │   ├── English setter
+│   │   ├── Gordon setter
+│   │   └── Irish setter, red setter
+│   ├── spaniel
+│   │   ├── Brittany spaniel
+│   │   ├── Sussex spaniel
+│   │   ├── clumber, clumber spaniel
+│   │   ├── cocker spaniel, English cocker spaniel, cocker
+│   │   ├── field spaniel
+│   │   ├── springer spaniel, springer
+│   │   │   ├── English springer, English springer spaniel
+│   │   │   └── Welsh springer spaniel
+│   │   └── water spaniel
+│   │       ├── American water spaniel
+│   │       └── Irish water spaniel
+│   └── water dog
+└── terrier
+    ├── Airedale, Airedale terrier
+    ├── Australian terrier
+    ├── Bedlington terrier
+    ├── Border terrier
+    ├── Boston bull, Boston terrier
+    ├── Dandie Dinmont, Dandie Dinmont terrier
+    ├── Irish terrier
+    ├── Kerry blue terrier
+    ├── Lhasa, Lhasa apso
+    ├── Norfolk terrier
+    ├── Norwich terrier
+    ├── Scotch terrier, Scottish terrier, Scottie
+    ├── Skye terrier
+    │   └── Clydesdale terrier
+    ├── Tibetan terrier, chrysanthemum dog
+    ├── West Highland white terrier
+    ├── Yorkshire terrier
+    ├── bullterrier, bull terrier
+    │   ├── American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier
+    │   └── Staffordshire bullterrier, Staffordshire bull terrier
+    ├── cairn, cairn terrier
+    ├── fox terrier
+    │   ├── smooth-haired fox terrier
+    │   └── wire-haired fox terrier
+    ├── rat terrier, ratter
+    │   └── Manchester terrier, black-and-tan terrier
+    │       └── toy Manchester, toy Manchester terrier
+    ├── schnauzer
+    │   ├── giant schnauzer
+    │   ├── miniature schnauzer
+    │   └── standard schnauzer
+    ├── silky terrier, Sydney silky
+    ├── soft-coated wheaten terrier
+    └── wirehair, wirehaired terrier, wire-haired terrier
+        ├── Lakeland terrier
+        └── Welsh terrier
+            └── Sealyham terrier, Sealyham
+hunting dog
+├── Rhodesian ridgeback
+├── courser
+├── dachshund, dachsie, badger dog
+│   └── sausage dog, sausage hound
+├── hound, hound dog
+│   ├── Afghan hound, Afghan
+│   ├── Ibizan hound, Ibizan Podenco
+│   ├── Norwegian elkhound, elkhound
+│   ├── Plott hound
+│   ├── Saluki, gazelle hound
+│   ├── Scottish deerhound, deerhound
+│   ├── Weimaraner
+│   ├── basset, basset hound
+│   ├── beagle
+│   ├── bloodhound, sleuthhound
+│   ├── bluetick
+│   ├── boarhound
+│   ├── coonhound
+│   │   ├── black-and-tan coonhound
+│   │   └── coondog
+│   ├── foxhound
+│   │   ├── American foxhound
+│   │   ├── English foxhound
+│   │   └── Walker hound, Walker foxhound
+│   ├── greyhound
+│   │   ├── Italian greyhound
+│   │   └── whippet
+│   ├── harrier
+│   ├── otterhound, otter hound
+│   ├── redbone
+│   ├── staghound
+│   └── wolfhound
+│       ├── Irish wolfhound
+│       └── borzoi, Russian wolfhound
+├── sporting dog, gun dog
+│   ├── bird dog
+│   ├── griffon, wire-haired pointing griffon
+│   ├── pointer, Spanish pointer
+│   │   ├── German short-haired pointer
+│   │   └── vizsla, Hungarian pointer
+│   ├── retriever
+│   │   ├── Chesapeake Bay retriever
+│   │   ├── Labrador retriever
+│   │   ├── curly-coated retriever
+│   │   ├── flat-coated retriever
+│   │   └── golden retriever
+│   ├── setter
+│   │   ├── English setter
+│   │   ├── Gordon setter
+│   │   └── Irish setter, red setter
+│   ├── spaniel
+│   │   ├── Brittany spaniel
+│   │   ├── Sussex spaniel
+│   │   ├── clumber, clumber spaniel
+│   │   ├── cocker spaniel, English cocker spaniel, cocker
+│   │   ├── field spaniel
+│   │   ├── springer spaniel, springer
+│   │   │   ├── English springer, English springer spaniel
+│   │   │   └── Welsh springer spaniel
+│   │   └── water spaniel
+│   │       ├── American water spaniel
+│   │       └── Irish water spaniel
+│   └── water dog
+└── terrier
+    ├── Airedale, Airedale terrier
+    ├── Australian terrier
+    ├── Bedlington terrier
+    ├── Border terrier
+    ├── Boston bull, Boston terrier
+    ├── Dandie Dinmont, Dandie Dinmont terrier
+    ├── Irish terrier
+    ├── Kerry blue terrier
+    ├── Lhasa, Lhasa apso
+    ├── Norfolk terrier
+    ├── Norwich terrier
+    ├── Scotch terrier, Scottish terrier, Scottie
+    ├── Skye terrier
+    │   └── Clydesdale terrier
+    ├── Tibetan terrier, chrysanthemum dog
+    ├── West Highland white terrier
+    ├── Yorkshire terrier
+    ├── bullterrier, bull terrier
+    │   ├── American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier
+    │   └── Staffordshire bullterrier, Staffordshire bull terrier
+    ├── cairn, cairn terrier
+    ├── fox terrier
+    │   ├── smooth-haired fox terrier
+    │   └── wire-haired fox terrier
+    ├── rat terrier, ratter
+    │   └── Manchester terrier, black-and-tan terrier
+    │       └── toy Manchester, toy Manchester terrier
+    ├── schnauzer
+    │   ├── giant schnauzer
+    │   ├── miniature schnauzer
+    │   └── standard schnauzer
+    ├── silky terrier, Sydney silky
+    ├── soft-coated wheaten terrier
+    └── wirehair, wirehaired terrier, wire-haired terrier
+        ├── Lakeland terrier
+        └── Welsh terrier
+            └── Sealyham terrier, Sealyham
