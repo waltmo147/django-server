@@ -2,3 +2,6 @@ ImageNet_store/
 ImageNet_mini/
 /imageToSave.JPEG
 /test.jpg
+src/profiles_project/profiles_project/__pycache__/*
+src/profiles_project/image_tagging_api/__pycache__/*
+src/profiles_project/profiles_api/__pycache__/*
