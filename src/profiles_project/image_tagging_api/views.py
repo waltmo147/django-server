@@ -33,7 +33,8 @@ class UploadImageViewSet(viewsets.ViewSet):
 
     def list(self, request):
         """Return a hello message"""
-        IMAGE_DIR = '/vagrant/ImageNet_store/'
+        IMAGE_DIR = '/home/ubuntu/data/'
+        PROJECT_DIR = '/usr/local/apps/profiles-rest-api'
         tag_id = self.request.query_params.get('tag_id')
         num = int(self.request.query_params.get('num'))
         count = int(self.request.query_params.get('count'))
@@ -55,7 +56,6 @@ class UploadImageViewSet(viewsets.ViewSet):
         if count > 1:
             ls = os.listdir(IMAGE_DIR + tag_id)
             image_arr = []
-            print(count)
             has_more = True
             for i in range(num, num + count):
                 if i >= len(ls):
@@ -65,7 +65,6 @@ class UploadImageViewSet(viewsets.ViewSet):
                 with open(path, 'rb') as imageFile:
                     image_str = base64.b64encode(imageFile.read())
                     tuple = {'filename': ls[i], 'image': image_str}
-
                     image_arr.append(tuple)
 
             return Response({'message': 'success', 'image': image_arr, 'has_more': has_more})
@@ -76,11 +75,10 @@ class UploadImageViewSet(viewsets.ViewSet):
         """upload an image to recognize"""
 
         #serializer = serializers.HelloSerializer(data=request.data)
-        fh = open("/vagrant/imageToSave.JPEG", "wb")
-        print('1')
+        fh = open(PROJECT_DIR + "/imageToSave.JPEG", "wb")
         encoded = base64.b64decode(request.data['image'])
         fh.write(encoded)
-        cmd = 'PYTHONPATH=/vagrant/android-model403/ python -m scripts.label_image  --image=/vagrant/imageToSave.jpeg'
+        cmd = 'PYTHONPATH=' + PROJECT_DIR + '/android-model403/ python -m scripts.label_image  --image=' + PROJECT_DIR + '/imageToSave.jpeg'
         result = subprocess.check_output(cmd, shell=True)
 
         string = result.decode(encoding='UTF-8')

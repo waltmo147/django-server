@@ -113,9 +113,10 @@ def load_labels(label_file):
   return label
 
 if __name__ == "__main__":
-  file_name = "/vagrant/test.jpg"
-  model_file = "/vagrant/android-model403/tf_files/retrained_graph.pb"
-  label_file = "/vagrant/android-model403/tf_files/retrained_labels.txt"
+
+  file_name = "/usr/local/apps/profiles-rest-api/test.jpg"
+  model_file = "/usr/local/apps/profiles-rest-api/android-model403/tf_files/retrained_graph.pb"
+  label_file = "/usr/local/apps/profiles-rest-api/android-model403/tf_files/retrained_labels.txt"
   input_height = 224
   input_width = 224
   input_mean = 128
