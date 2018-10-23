@@ -33,7 +33,7 @@ class UploadImageViewSet(viewsets.ViewSet):
 
     def list(self, request):
         """Return a hello message"""
-        IMAGE_DIR = '/home/ubuntu/data/'
+        IMAGE_DIR = '/home/ubuntu/data/ImageNet_mini/'
         PROJECT_DIR = '/usr/local/apps/profiles-rest-api'
         tag_id = self.request.query_params.get('tag_id')
         num = int(self.request.query_params.get('num'))
