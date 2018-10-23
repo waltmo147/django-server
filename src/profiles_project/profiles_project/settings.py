@@ -25,7 +25,7 @@ SECRET_KEY = 'w+lc2vm2c4r9dic=u85w1w%)h1omkf181r9u*f_t&76zf9ox1k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.0.2.2', '127.0.0.1', 'waltmo.localtunnel.me', 'ec2-18-222-187-111.us-east-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['ec2-18-222-187-111.us-east-2.compute.amazonaws.com']
 
 
 # Application definition
