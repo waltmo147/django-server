@@ -191,7 +191,7 @@ if __name__ == "__main__":
   # f11 = open('treetext.txt','wb')
   # f11.write(html)
   # f11.close()
-  f11 = open('/vagrant/android-model403/treetext.txt','rb')
+  f11 = open('/usr/local/apps/profiles-rest-api/android-model403/treetext.txt','rb')
   html = f11.read()
   f11.close()
 
