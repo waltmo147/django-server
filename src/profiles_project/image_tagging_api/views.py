@@ -11,11 +11,12 @@ from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.permissions import IsAuthenticated
 
-
+from PIL import Image
 
 from . import serializers
 from . import models
 
+from io import BytesIO
 import base64
 import subprocess
 import json
@@ -23,8 +24,6 @@ import os
 import sys
 
 # Create your views here.
-
-
 
 class UploadImageViewSet(viewsets.ViewSet):
     """Test API ViewSet."""
@@ -38,6 +37,9 @@ class UploadImageViewSet(viewsets.ViewSet):
         tag_id = self.request.query_params.get('tag_id')
         num = int(self.request.query_params.get('num'))
         count = int(self.request.query_params.get('count'))
+        width = int(self.request.query_params.get('width'))
+
+
 
         # no such category in server
         if not os.path.exists(IMAGE_DIR + tag_id):
@@ -62,14 +64,24 @@ class UploadImageViewSet(viewsets.ViewSet):
                     has_more = False
                     break
                 path = IMAGE_DIR + tag_id + '/' +ls[i]
-                with open(path, 'rb') as imageFile:
-                    image_str = base64.b64encode(imageFile.read())
-                    tuple = {'filename': ls[i], 'image': image_str}
-                    image_arr.append(tuple)
+
+                img = Image.open('path')
+                w, h = img.size
+                new_img = img.resize((width, int(h * width / w)))
+                buffered = BytesIO()
+                new_img.save(buffered, format="JPEG")
+                img_str = base64.b64encode(buffered.getvalue())
+                tuple = {'filename': ls[i], 'image': image_str}
+                image_arr.append(tuple)
 
             return Response({'message': 'success', 'image': image_arr, 'has_more': has_more})
 
         return Response({'message': 'fail', 'status': '400', 'image': ''})
+
+
+    def read_and_resize_image(path, image_arr, width, ):
+
+
 
     def create(self, request):
         """upload an image to recognize"""
