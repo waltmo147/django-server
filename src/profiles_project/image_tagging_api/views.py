@@ -79,8 +79,6 @@ class UploadImageViewSet(viewsets.ViewSet):
         return Response({'message': 'fail', 'status': '400', 'image': ''})
 
 
-    def read_and_resize_image(path, image_arr, width, ):
-
 
 
     def create(self, request):
