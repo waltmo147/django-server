@@ -28,8 +28,8 @@ import sys
 class UploadImageViewSet(viewsets.ViewSet):
     """Test API ViewSet."""
 
-    self.IMAGE_DIR = '/home/ubuntu/data/ImageNet_mini/'
-    self.PROJECT_DIR = '/usr/local/apps/profiles-rest-api'
+    IMAGE_DIR = '/home/ubuntu/data/ImageNet_mini/'
+    PROJECT_DIR = '/usr/local/apps/profiles-rest-api'
     #serializer_class = serializers.HelloSerializer
 
     def list(self, request):
