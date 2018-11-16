@@ -87,6 +87,7 @@ class UploadImageViewSet(viewsets.ViewSet):
         fh = open(self.PROJECT_DIR + "/imageToSave.JPEG", "wb")
         encoded = base64.b64decode(request.data['image'])
         fh.write(encoded)
+        fh.close()
         cmd = 'PYTHONPATH=' + self.PROJECT_DIR + '/android-model403/ python -m scripts.label_image  --image=' + self.PROJECT_DIR + '/imageToSave.JPEG'
         result = subprocess.check_output(cmd, shell=True)
 
