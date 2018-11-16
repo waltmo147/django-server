@@ -70,7 +70,7 @@ class UploadImageViewSet(viewsets.ViewSet):
                 buffered = BytesIO()
                 new_img.save(buffered, format="JPEG")
                 img_str = base64.b64encode(buffered.getvalue())
-                tuple = {'filename': ls[i], 'image': image_str}
+                tuple = {'filename': ls[i], 'image': img_str}
                 image_arr.append(tuple)
 
             return Response({'message': 'success', 'image': image_arr, 'has_more': has_more})
