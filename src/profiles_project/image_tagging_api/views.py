@@ -66,7 +66,7 @@ class UploadImageViewSet(viewsets.ViewSet):
 
                 img = Image.open('path')
                 w, h = img.size
-                new_img = img.resize((width, int(h * width / w)))
+                new_img = img.resize((width, h * width // w))
                 buffered = BytesIO()
                 new_img.save(buffered, format="JPEG")
                 img_str = base64.b64encode(buffered.getvalue())
