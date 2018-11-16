@@ -34,7 +34,7 @@ class UploadImageViewSet(viewsets.ViewSet):
 
     def list(self, request):
         """Return a hello message"""
-
+        print('get')
         tag_id = self.request.query_params.get('tag_id')
         num = int(self.request.query_params.get('num'))
         count = int(self.request.query_params.get('count'))
@@ -82,7 +82,7 @@ class UploadImageViewSet(viewsets.ViewSet):
 
     def create(self, request):
         """upload an image to recognize"""
-
+        print('post')
         #serializer = serializers.HelloSerializer(data=request.data)
         fh = open(self.PROJECT_DIR + "/imageToSave.JPEG", "wb")
         encoded = base64.b64decode(request.data['image'])
