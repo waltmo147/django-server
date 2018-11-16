@@ -64,7 +64,7 @@ class UploadImageViewSet(viewsets.ViewSet):
                     break
                 path = self.IMAGE_DIR + tag_id + '/' +ls[i]
 
-                img = Image.open('path')
+                img = Image.open(path)
                 w, h = img.size
                 new_img = img.resize((width, h * width // w))
                 buffered = BytesIO()
